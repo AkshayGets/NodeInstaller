@@ -7,6 +7,7 @@ data:
   install.sh: |
     #!/bin/bash
 
-    # Update and install packages
-    apt-get update
-    apt-get install cowsay -y
+    # Create a test file
+    touch test1.txt
+    sleep 5
+    while true; do sleep 100000; done
